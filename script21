@@ -1,0 +1,12 @@
+
+test_scoresLIST = [ 75, 85, 95, 65, 55 ]
+high_school_marksLIST = [ 92, 82, 72, 62,52 ]
+student_first_nameLIST = [ "vipul", "roshan", "lucky", "mailie", "trippy"
+]
+min_marks = 70
+for i in range(len(student_first_nameLIST)) :
+if test_scoresLIST[i] >= min_marks and high_school_marksLIST[i] >= 
+min_marks :
+print(student_first_nameLIST[i], "ACCEPTED")
+else :
+print(student_first_nameLIST[i],"REJECTED")
